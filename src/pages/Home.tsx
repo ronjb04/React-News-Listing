@@ -23,9 +23,9 @@ const Home = () => {
   };
 
   return (
-    <div className="mx-auto max-w-7xl">
-      <div className="flex justify-between pb-4 align-middle">
-        <h1 className="text-3xl font-bold dark:text-gray-200">Popular Articles</h1>
+    <div className="container px-4 mx-auto max-w-7xl">
+      <div className="flex justify-between pb-4 items-center">
+        <h1 className="text-xl leading-none md:text-3xl font-bold dark:text-gray-200">Popular Articles</h1>
         <select
           value={period}
           onChange={handleSelectChange}
@@ -37,7 +37,7 @@ const Home = () => {
         </select>
       </div>
       {status === 'loading' ? (
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           {Array.from({ length: 8 }).map((_, index) => (
             <LoadingSkeleton key={index} />
           ))}

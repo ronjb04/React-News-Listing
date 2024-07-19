@@ -22,7 +22,7 @@ const ArticleList = () => {
   }
 
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pb-12">
+    <div className="grid grid-cols-1 md:grid-cols-4 gap-6 pb-12">
       {articlesState.data.map((article: Article) => (
         <ArticleCard key={article.id} article={article} />
       ))}
