@@ -1,19 +1,30 @@
 # React News Listing
 
-Make sure you are in project directory, first install dependencies run below in terminal:
+React application with tailwind that displays a list of news articles and a single page detail article page for every listing.
 
-### `npm install`
+## Summary
 
-Runs the app in the development mode.
+- Display a list of news articles
+- Single Article page
+- Dark/Light Theme
+- Redux-toolkit
+- Unit tests with Jest and React Testing Library
 
-### `npm start`
+## Installation
 
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
-You will also see any lint errors in the console.
+1. **Clone the repository:**
 
-Runs below for testing mode.
+    git clone https://github.com/ronjb04/React-News-Listing.git
+    cd react-news-listing
 
-### `npm test`
+2. **Install dependencies:**
+    npm install
 
+## Running the Application in development
+    npm start
 
+    Runs the app in the development mode.
+    Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+## Testing
+    npm test
