@@ -2,6 +2,8 @@
 
 React application with tailwind that displays a list of news articles and a single page detail article page for every listing.
 
+Demo: https://main.d1bg88yta437qm.amplifyapp.com/
+
 ## Summary
 
 - Display a list of news articles
